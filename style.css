@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #101010 ;
+}
+
+/* Navigation */
+
+nav {
+    background: #171717;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+nav .menu {
+    display: flex;
+    list-style: none;
+}
+
+nav .menu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav .menu li a:hover,
+nav .menu li a.active {
+    color: #D5FF3F;
+}
+
+nav .open-menu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+nav .menu .close-menu {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+/* Main */
+
+.wrapper {
+    margin: 90px 100px;
+    display: flex;
+}
+
+.wrapper h1, h3, p {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #D5FF3F;
+    font-weight: 800;
+    cursor: default;
+    padding-left: 10px;
+}
+
+.wrapper h1 {
+    font-size: 4.5rem;
+}
+
+.wrapper h3 {
+    margin-top: -20px;
+    font-size: 3.5rem;
+}
+
+.wrapper p {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #C4C4C4;
+    padding-right: 110px;
+    text-align: justify;
+}
+
+.wrapper #img1 {
+    width: 600px;
+    border-radius: 15px;
+}
+
+.footer {
+    background-color: #D5FF3F;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Navigation */
+
+    nav {
+        justify-content: space-between;
+    }
+
+    nav .menu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #171717;
+        transition: top 1s ease;
+        display: none;
+    }
+
+    nav .menu li {
+        margin-bottom: 20px;
+    }
+
+    nav .menu .close-menu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav .open-menu {
+        display: block;
+    }
+
+    nav .menu li a:hover {
+        background: none;
+        color: #D5FF3F;
+        font-size: 1rem;
+    }
+
+    /* Main */
+
+    .wrapper {
+        margin: 50px 100px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .wrapper h1, h3, p {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .wrapper h1 {
+        font-size: 4rem;
+    }
+    
+    .wrapper h3 {
+        margin-top: -22px;
+        font-size: 3rem;
+    }
+    
+    .wrapper p {
+        margin-top: 50px;
+        font-size: 1rem;
+        color: #C4C4C4;
+        padding-right: 0;
+    }
+    
+    .wrapper #img1 {
+        width: 567px;
+        border-radius: 15px;
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+
+    /* Main */
+
+    .wrapper {
+        margin: 30px 60px;
+    }
+    
+    .wrapper h1 {
+        font-size: 2rem;
+    }
+    
+    .wrapper h3 {
+        margin-top: -10px;
+        font-size: 1.5rem;
+    }
+    
+    .wrapper p {
+        margin-top: 20px;
+        font-size: 0.8rem;
+    }
+    
+    .wrapper #img1 {
+        width: 303px;
+        border-radius: 15px;
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+
+    /* Main */
+
+    .wrapper h1 {
+        font-size: 1.8rem;
+    }
+    
+    .wrapper h3 {
+        font-size: 1.4rem;
+    }
+    
+    .wrapper p {
+        font-size: 0.7rem;
+    }
+    
+    .wrapper #img1 {
+        width: 255.7px;
+    }
+
+}
+
+@media screen and (max-width: 321px) {
+
+    /* Main */
+
+    .wrapper h1 {
+        font-size: 1.5rem;
+    }
+    
+    .wrapper h3 {
+        margin-top: -5px;
+        font-size: 1.1rem;
+    }
+    
+    .wrapper p {
+        font-size: 0.68rem;
+    }
+    
+    .wrapper #img1 {
+        width: 200px;
+    }
+
+}

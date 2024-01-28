@@ -33,8 +33,7 @@ nav .menu li a {
     font-weight: 500;
 }
 
-nav .menu li a:hover,
-nav .menu li a.active {
+nav .menu li a:hover {
     color: #D5FF3F;
 }
 

@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background: #101010 ;
+    background: #101010;
 }
 
 /* Navigation */
@@ -15,6 +19,9 @@ nav {
     display: flex;
     justify-content: center;
     color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 nav .menu {
@@ -37,6 +44,11 @@ nav .menu li a:hover {
     color: #D5FF3F;
 }
 
+/* nav .menu li a.active {
+    color: #D5FF3F;
+    text-decoration: underline;
+} */
+
 nav .open-menu {
     font-size: 2rem;
     margin: 20px;
@@ -52,8 +64,12 @@ nav .menu .close-menu {
 
 /* Main */
 
+/* First Section */
+
 .wrapper {
-    margin: 90px 100px;
+    /* background-color: grey; */
+    margin: 120px 100px;
+    padding-top: 50px;
     display: flex;
 }
 
@@ -87,6 +103,34 @@ nav .menu .close-menu {
     width: 600px;
     border-radius: 15px;
 }
+
+/* Second Section */
+
+#assign2 .wrapper {
+    background-color: white;
+    margin: 125px 50px;
+    padding-top: 50px;
+    display: block;
+    
+}
+
+#assign2 .wrapper h1, h3, p {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #D5FF3F;
+    font-weight: 800;
+    cursor: default;
+}
+
+/* #assign2 .wrapper h1 {
+    font-size: 4.5rem;
+}
+
+#assign2 .wrapper h3 {
+    margin-top: -20px;
+    font-size: 3.5rem;
+} */
+
+/* Footer */
 
 .footer {
     background-color: #D5FF3F;
@@ -149,7 +193,7 @@ nav .menu .close-menu {
     /* Main */
 
     .wrapper {
-        margin: 50px 100px;
+        margin: 95px 100px;
         display: block;
         justify-content: center;
         align-items: center;
@@ -193,7 +237,7 @@ nav .menu .close-menu {
     /* Main */
 
     .wrapper {
-        margin: 30px 60px;
+        margin: 90px 60px -40px 60px;
     }
     
     .wrapper h1 {

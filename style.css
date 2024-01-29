@@ -38,16 +38,12 @@ nav .menu li a {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 500;
+    transition: 0.3s ease;
 }
 
 nav .menu li a:hover {
     color: #D5FF3F;
 }
-
-/* nav .menu li a.active {
-    color: #D5FF3F;
-    text-decoration: underline;
-} */
 
 nav .open-menu {
     font-size: 2rem;
@@ -106,54 +102,57 @@ nav .menu .close-menu {
 
 /* Section 2 */
 
-.section2 .wrapper {
-    background-color: white;
-    margin: 120px 80px;
+.section2 {
+    /* background-color: white; */
+    margin: 120px 100px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
 
-.section2 .wrapper h1,
-.section2 .wrapper h3{
-    font-family: 'Be Vietnam Pro', sans-serif;
-    color: #D5FF3F;
-    font-weight: 800;
-    cursor: default;
+.section2 header {
+    margin-top: 30px;
     text-align: end;
 }
 
-.section2 .wrapper h1 {
-    font-size: 4.5rem;
-    margin-right: 50px;
-}
-
-.section2 .wrapper h3 {
-    margin-top: -20px;
-    font-size: 3.5rem;
-    margin-right: 50px;
-}
-
-/* Article Section */
-
-.article-section .wrapper {
-    background-color: grey;
-    display: flex;
-    text-align: center;
-    padding: 0;
-}
-
-.article-section h2 {
+.section2 h2 {
     font-family: 'Be Vietnam Pro', sans-serif;
+    color: #D5FF3F;
     font-size: 1.3rem;
-    font-weight: 800;
-    color: #C4C4C4;
+    font-weight: 700;
 }
 
-.article-section p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
+.section2 h1 {
+    margin-right: 50px;
+}
+
+.section2 h3 {
+    margin-right: 50px;
+}
+
+.article-section {
+    /* background-color: grey; */
+    margin-right: 65px;
+}
+
+.article-section .article-main p {
+    margin-top: 10px;
+    margin-right: -110px;
+    margin-left: 700px;
+    text-align: justify;
+    font-family: 'Be Vietnam Pro', sans-serif;
     color: #C4C4C4;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.article-section img {
+    margin-top: -900px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    width: 420px;
+    border-radius: 15px;
 }
 
 

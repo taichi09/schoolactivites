@@ -104,41 +104,18 @@ nav .menu .close-menu {
     border-radius: 15px;
 }
 
-/* Second Section */
+/* Section 2 */
 
-#assign2 .wrapper {
-    background-color: white;
-    margin: 125px 50px;
-    padding-top: 50px;
-    display: block;
-    
-}
-
-#assign2 .wrapper h1, h3, p {
-    font-family: 'Be Vietnam Pro', sans-serif;
-    color: #D5FF3F;
-    font-weight: 800;
-    cursor: default;
-}
-
-/* #assign2 .wrapper h1 {
-    font-size: 4.5rem;
-}
-
-#assign2 .wrapper h3 {
-    margin-top: -20px;
-    font-size: 3.5rem;
-} */
 
 /* Footer */
 
-.footer {
+/* footer {
     background-color: #D5FF3F;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 @media screen and (max-width: 768px) {
 

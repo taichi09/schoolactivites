@@ -106,6 +106,56 @@ nav .menu .close-menu {
 
 /* Section 2 */
 
+.section2 .wrapper {
+    background-color: white;
+    margin: 120px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 .wrapper h1,
+.section2 .wrapper h3{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #D5FF3F;
+    font-weight: 800;
+    cursor: default;
+    text-align: end;
+}
+
+.section2 .wrapper h1 {
+    font-size: 4.5rem;
+    margin-right: 50px;
+}
+
+.section2 .wrapper h3 {
+    margin-top: -20px;
+    font-size: 3.5rem;
+    margin-right: 50px;
+}
+
+/* Article Section */
+
+.article-section .wrapper {
+    background-color: grey;
+    display: flex;
+    text-align: center;
+    padding: 0;
+}
+
+.article-section h2 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #C4C4C4;
+}
+
+.article-section p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #C4C4C4;
+}
+
 
 /* Footer */
 

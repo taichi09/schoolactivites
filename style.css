@@ -150,11 +150,92 @@ nav .menu .close-menu {
 .article-section img {
     margin-top: -900px;
     margin-bottom: 10px;
-    margin-left: 50px;
+    margin-left: 70px;
     width: 420px;
     border-radius: 15px;
 }
 
+/* Section 3 */
+
+.section3 {
+    background-color: #292929;
+    border-radius: 15px;
+    margin: 120px 100px;
+    padding: 50px;
+    display: block;
+}
+
+.multimedia {
+    display: flex;
+}
+
+.audio-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.audio-section h2 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #C4C4C4;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 10px;
+    margin-left: 115px;
+}
+
+.audio-section img {
+    width: 500px;
+    margin-left: 80px;
+    border-radius: 15px;
+}
+
+.audio-section figcaption {
+    margin-top: 5px;
+    margin-bottom: -10px;
+    margin-left: 175px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #C4C4C4;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.audio-section audio {
+    margin-top: 20px;
+    margin-left: 175px;
+}
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-section h2 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #C4C4C4;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 10px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.video-section video {
+    width: 550px;
+    margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 15px;
+}
+
+.video-section figcaption {
+    margin-top: 30px;
+    margin-bottom: -10px;
+    margin-left: 180px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #C4C4C4;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
 
 /* Footer */
 

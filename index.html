@@ -33,19 +33,19 @@
     </header>
 
     <main>
-        <article>
-            <section class="wrapper">
-                <header>
-                    <h1>HTML Activity 1</h1>
-                    <h3>Responsive Design</h3>
-                    <p>Responsive design in web development ensures websites adapt to different devices and screen sizes, employing flexible layouts, adaptable images, and media queries. By providing a consistent and user-friendly experience across desktops, laptops, tablets, and smartphones, responsive design eliminates the need for separate designs. It has become a standard practice, optimizing accessibility and usability in our mobile-centric digital landscape.</p>
-                </header>
-                <figure>
-                    <img id="img1" src="images/img1.jpeg" alt="Image of a Laptop">
-                </figure>
-            </section>
-        </article>  
+        <!-- First Section -->
+        <section class="wrapper">
+            <header>
+                <h1>HTML Activity 1</h1>
+                <h3>Responsive Design</h3>
+                <p>Responsive design in web development ensures websites adapt to different devices and screen sizes, employing flexible layouts, adaptable images, and media queries. By providing a consistent and user-friendly experience across desktops, laptops, tablets, and smartphones, responsive design eliminates the need for separate designs. It has become a standard practice, optimizing accessibility and usability in our mobile-centric digital landscape.</p>
+            </header>
+            <figure>
+                <img id="img1" src="images/img1.jpeg" alt="Image of a Laptop">
+            </figure>
+        </section>
 
+        <!-- Second Section -->
         <section id="assign2" class="section2 wrapper">
             <header>
                 <h1>HTML Activity 2</h1>
@@ -67,6 +67,7 @@
             </article>
         </section>
 
+        <!-- Third Section -->
         <section id="assign3" class="section3 wrapper">
             <header>
                 <h1>HTML Activity 3</h1>
@@ -93,6 +94,7 @@
             </section>
         </section>
 
+        <!-- Fourth Section -->
         <section id="assign4" class="section4 wrapper">
             <header>
                 <h1>HTML Activity 4</h1>
@@ -132,10 +134,9 @@
                     </section>
                 </fieldset>
             </form>
-
-
         </section>
 
+        <!-- Fifth Section -->
         <section id="assign5" class="section5 wrapper">
             <header>
                 <h1>HTML Activity 5</h1>
@@ -144,36 +145,58 @@
 
         </section>
 
-        <!-- <section id="assign6" class="section6 wrapper">
+        <!-- Sixth Section -->
+        <section id="assign6" class="section6 wrapper">
             <header>
                 <h1>HTML Activity 6</h1>
                 <h3>Geolocation and Maps</h3>
             </header>
             
-        </section> -->
+            <section id="map">
 
-        <!-- <section id="assign7" class="section7 wrapper">
+            </section>
+        
+
+        </section>
+
+        <!-- Seventh Section -->
+        <section id="assign7" class="section7 wrapper">
             <header>
                 <h1>HTML Activity 7</h1>
                 <h3>Drag-and-Drop API</h3>
             </header>
-            
-        </section> -->
 
-        <!-- <section id="assign8" class="section8 wrapper">
+            <section class="wrapper">
+                <section class="drop-zone" style="border-color: #BCE138;">
+                    <section id="draggable-element" draggable="true"></section>
+                </section>
+                <section class="drop-zone" style="border-color: #BCE138;"></section>
+                <section class="drop-zone" style="border-color: #BCE138;"></section>
+            </section>
+        </section>
+
+        <section id="assign8" class="section8 wrapper">
             <header>
                 <h1>HTML Activity 8</h1>
-                <h3>Local Storages</h3>
+                <h3>Local Storage</h3>
             </header>
             
-        </section> -->
+            <section class="local-storage wrapper">
+                <h2>Please input some text in the box below.</h2>
+                <input id="type-content" type="text" placeholder="Enter any text you want to say.">
+                <h2 id="change-content"></h2>
+                <button onclick="display()">Save Text</button>
+                <button onclick="reset()">Reset Text</button>
+            </section>
+        </section>
 
     </main>
 
-    <!-- <footer> -->
-        <!-- Your footer content goes here -->
-    <!-- </footer> -->
+    <footer>
+        <h1>IT-111 Integrative Programming</h1>
+    </footer>
     
     <script src="app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2tXKe2m2_9Ywz_DIca0o5oelW6wpJlOg&callback=initMap"></script>
 </body>
 </html>

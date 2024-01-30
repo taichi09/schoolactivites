@@ -325,15 +325,184 @@ button:hover {
     background-color: #BCE138;
 }
 
-/* Footer */
+/* Section 5 */
 
-/* footer {
-    background-color: #D5FF3F;
-    height: 70px;
+.section5 {
+    background-color: #171717;
+    border-radius: 15px;
+    margin: 120px 100px;
+    padding-top: -20px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.section5 header {
+    margin-top: 10px;
+    text-align: end;
+}
+
+.section5 h1 {
+    margin-right: 50px;
+}
+
+.section5 h3 {
+    margin-right: 50px;
+    margin-top: -10px;
+}
+
+
+
+/* Section 6 */
+
+.section6 {
+    background-color: #171717;
+    border-radius: 15px;
+    margin: 120px 100px;
+    padding-top: -50px;
+    padding-bottom: 40px;
+}
+
+.section6 header {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.section6 h1 {
+    margin-left: 20px;
+}
+
+.section6 h3 {
+    margin-top: 5px;
+}
+
+#map {
+    height: 500px;
+    width: 90%;
+    border-radius: 15px;
+    z-index: 0;
+}
+
+/* Section 7 */
+
+.section7 {
+    background-color: #171717;
+    border-radius: 15px;
+    margin: 120px 100px;
+    padding-top: -20px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.section7 header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.section7 h3 {
+    margin-top: -10px;
+}
+
+.section7 .wrapper {
     display: flex;
     justify-content: center;
+    border-radius: 15px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.drop-zone {
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+    display: flex;
     align-items: center;
-} */
+    justify-self: center;
+    border: 3.5px dashed black;
+}
+
+.drop-zone--over {
+    opacity: 0.5;
+}
+
+#draggable-element {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("images/dragndropimg.jpg");
+}
+
+/* Section 8 */
+
+.section8 {
+    background-color: #171717;
+    border-radius: 15px;
+    margin: 120px 100px;
+    padding-top: -50px;
+    padding-bottom: 40px;
+    display: block;
+}
+
+.section8 header {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.section8 h1 {
+    margin-left: 20px;
+}
+
+.section8 h3 {
+    margin-top: 5px;
+}
+
+.local-storage {
+    display: block;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 0;
+}
+
+.local-storage h2 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #BCE138;
+}
+
+.local-storage input {
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.local-storage #change-content {
+    margin-bottom: 50px;
+}
+
+.local-storage button {
+    margin: 0 10px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #D5FF3F;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer h1 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-right: 5%;
+    font-weight: 900;
+}
+
 
 @media screen and (max-width: 768px) {
 
